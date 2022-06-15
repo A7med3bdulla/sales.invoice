@@ -97,9 +97,14 @@ public class InvoiceFrame extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(lineTable);
 
-        createLineButton.setText("Save");
+        createLineButton.setText("ADD");
 
-        deleteLineButton.setText("Cancel");
+        deleteLineButton.setText("Delete");
+        deleteLineButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteLineButtonActionPerformed(evt);
+            }
+        });
 
         jMenu1.setText("File");
 
@@ -193,6 +198,10 @@ public class InvoiceFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void deleteLineButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteLineButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_deleteLineButtonActionPerformed
 
     /**
      * @param args the command line arguments
