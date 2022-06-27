@@ -233,7 +233,7 @@
     </Container>
     <Component class="javax.swing.JButton" name="createLineButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ADD"/>
+        <Property name="text" type="java.lang.String" value="Create New Item"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="createLineButton.addActionListener(controller);"/>
@@ -241,7 +241,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="deleteLineButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Delete"/>
+        <Property name="text" type="java.lang.String" value="Delete Item"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteLineButtonActionPerformed"/>

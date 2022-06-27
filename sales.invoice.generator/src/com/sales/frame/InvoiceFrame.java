@@ -97,9 +97,9 @@ public class InvoiceFrame extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(lineTable);
 
-        createLineButton.setText("ADD");
+        createLineButton.setText("Create New Item");
 
-        deleteLineButton.setText("Delete");
+        deleteLineButton.setText("Delete Item");
         deleteLineButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 deleteLineButtonActionPerformed(evt);
@@ -321,6 +321,10 @@ public class InvoiceFrame extends javax.swing.JFrame {
         }
         
         return ++num;
+    }
+
+    public Object geInvoiceTable() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

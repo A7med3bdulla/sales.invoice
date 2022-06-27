@@ -200,6 +200,7 @@ public class layout implements ActionListener, ListSelectionListener {
     }
 
     private void deleteItem() {
+      
         int selectedRow = frame.getLineTable().getSelectedRow();
 
         if (selectedRow != -1) {
